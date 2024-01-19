@@ -11,7 +11,6 @@ use Illuminate\Http\Request;
 
 class TripController extends Controller
 {
-    //
     public function index(): JsonResponse
     {   
         $trips = Trip::all();
